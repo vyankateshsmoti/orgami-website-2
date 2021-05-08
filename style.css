@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(3, 4, 10);
+    border: 2px double white;
+}
+.menu{
+    background-color:rgb(3, 4, 10);
+    color:rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    border: 2px double white;
+    border-radius:5px ;
+    font-size: 20px;
+    font-family: cursive;
+    
+    justify-content: space-between;
+  
+
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-evenly; 
+    
+
+}
+
+.grid img{
+    
+    border: 2px solid #4682B4;
+    border-radius: 50px;
+
+   
+   
+}
+.item{
+       
+    width: 280px;
+    padding-top: 10px;
+    margin: 25px;
+    
+    text-align: center;
+    justify-content: space-around;
+
+    border: 2px dotted gold;
+    border-radius: 20%;
+  
+}
+
+
+
+.bodying{
+    background-image: url("images/bg2.png");
+    border: 1px double white;
+    border-radius: 1%;
+    padding: 3%;
+}
+p{
+    text-align: end;
+    font-size: 750%;
+    font-family: fantasy;
+    color: rgb(3, 4, 10);
+
+    
+}
+ ul{
+    color:white;
+    font-size: 100%;
+    font-family: serif;
+}
+h3{
+    color:#4682B4;
+    font-size:150% ;
+    font-family: serif;
+}
+
+h2{
+    text-align: end;
+    font-size: 100%;
+    font-style: italic;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
